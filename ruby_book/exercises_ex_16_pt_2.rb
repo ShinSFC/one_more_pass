@@ -13,7 +13,7 @@ contact_data_count = 0
 loop do
   name_array = contacts.keys # splitting shift to another variable wont fix not accessing "Sally"
   name = name_array.shift
-  p contacts.keys
+    p contacts.keys
   p name  
   loop do
     contacts[name][info.shift] = contact_data[contact_data_count].shift # count_2 part should be right
