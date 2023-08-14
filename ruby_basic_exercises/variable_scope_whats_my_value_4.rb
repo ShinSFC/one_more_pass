@@ -1,0 +1,13 @@
+a = "Xyzzy"
+
+def my_value(b)
+  b[2] = '-'
+end
+
+my_value(a)
+puts a
+
+# "Xy-zzy" wrong. 
+# right answer is "Xy-zy"
+  
+  
